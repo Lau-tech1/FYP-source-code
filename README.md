@@ -87,3 +87,7 @@ These metrics provide objective insights into how well each method removes noise
    - Visualize results and compute metrics (SNR, RMSE, PRD)
 
 ---
+
+## 📄 License
+
+This project is for academic use only. Please cite appropriately if reused.
