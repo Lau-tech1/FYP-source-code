@@ -80,7 +80,19 @@ These metrics provide objective insights into how well each method removes noise
 1. Download the datasets as instructed and place them in `Dataset/` and `Noise/` folders.
 2. Navigate to any of the 4 folders under `Experimental/`.
 3. Open the Jupyter Notebook (e.g., `BW_EWT(100).ipynb`).
-4. Run all cells sequentially to:
+4. Ensure that your local file paths match the structure expected by the code. For example, change the hardcoded paths in the notebooks to match this structure:
+```
+# Path to the dataset
+# Change to your local path direction
+# Example:
+# path = 'C:/your-directory/FYP-source-code/Dataset/100'   # instead of 'C:/Users/wen-xiang.lau/FYP/dataset/100'
+
+# Load EMG/BW from MIT-BIH Noise Stress Test Database
+# Change to your local path direction
+# Example:
+# emg_record = wfdb.rdrecord('C:/your-directory/FYP-source-code/Noise/ma')  # instead of 'C:/Users/wen-xiang.lau/FYP/noise/ma'
+```
+5. Run all cells sequentially to:
    - Load ECG signals and noise
    - Add synthetic noise
    - Apply the corresponding denoising technique
