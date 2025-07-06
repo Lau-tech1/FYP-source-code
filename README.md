@@ -1,6 +1,6 @@
 # ECG Image Enhancement and Noise Reduction Techniques
 
-This repository contains the source code for our Final Year Project (FYP), which focuses on denoising ECG signals using two wavelet-based techniques:
+This repository contains the source code for my Final Year Project (FYP), which focuses on denoising ECG signals using two wavelet-based techniques:
 - **Empirical Wavelet Transform (EWT)**
 - **Stationary Wavelet Transform (SWT)**
 
