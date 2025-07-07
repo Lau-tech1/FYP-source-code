@@ -58,7 +58,7 @@ Tested on: `Python 3.10` with **Jupyter Notebook**
 You can install the required library packages by entering the following command directly in a Jupyter Notebook cell:
 
 ```bash
-pip install numpy scipy matplotlib wfdb PyWavelets ewtpy
+!pip install numpy scipy matplotlib wfdb PyWavelets ewtpy
 ```
 
 ---
